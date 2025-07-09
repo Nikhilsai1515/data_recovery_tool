@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\analyse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\src\gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\src\guiLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\x64\Debug\libtsk.lib" />
+    <Library Include="lib\x64\Debug\zlibd.lib" />
+    <Library Include="lib\x64\Debug\libvmdk.lib" />
+    <Library Include="lib\x64\Debug\libewf.lib" />
+    <Library Include="lib\x64\Debug\libvhdi.lib" />
+    <Library Include="lib\x64\Debug\zlib.lib" />
+    <Library Include="lib\x64\Release\libewf.lib" />
+    <Library Include="lib\x64\Release\libtsk.lib" />
+    <Library Include="lib\x64\Release\libvhdi.lib" />
+    <Library Include="lib\x64\Release\libvmdk.lib" />
+    <Library Include="lib\x64\Release\zlib.lib" />
+    <Library Include="lib\x64\Release\zlibd.lib" />
+    <Library Include="lib\x64\Release\concrt140.lib" />
+    <Library Include="lib\x64\Release\libcrypto-1_1-x64.lib" />
+    <Library Include="lib\x64\Release\libssl-1_1-x64.lib" />
+    <Library Include="lib\x64\Release\msvcp140.lib" />
+    <Library Include="lib\x64\Release\msvcp140_1.lib" />
+    <Library Include="lib\x64\Release\msvcp140_2.lib" />
+    <Library Include="lib\x64\Release\msvcp140_atomic_wait.lib" />
+    <Library Include="lib\x64\Release\msvcp140_codecvt_ids.lib" />
+    <Library Include="lib\x64\Release\vccorlib140.lib" />
+    <Library Include="lib\x64\Release\vcruntime140.lib" />
+    <Library Include="lib\x64\Release\vcruntime140_1.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\x64\Debug\libtsk.pdb" />
+    <None Include="lib\x64\Debug\libewf.dll" />
+    <None Include="lib\x64\Debug\libvhdi.dll" />
+    <None Include="lib\x64\Debug\libvmdk.dll" />
+    <None Include="lib\x64\Debug\zlib.dll" />
+    <None Include="lib\x64\Debug\zlibd.dll" />
+    <None Include="lib\x64\Release\libewf.dll" />
+    <None Include="lib\x64\Release\libvhdi.dll" />
+    <None Include="lib\x64\Release\libvmdk.dll" />
+    <None Include="lib\x64\Release\zlib.dll" />
+    <None Include="lib\x64\Release\zlibd.dll" />
+    <None Include="lib\x64\Release\libtsk.pdb" />
+    <None Include="lib\x64\Release\concrt140.dll" />
+    <None Include="lib\x64\Release\libcrypto-1_1-x64.dll" />
+    <None Include="lib\x64\Release\libssl-1_1-x64.dll" />
+    <None Include="lib\x64\Release\msvcp140.dll" />
+    <None Include="lib\x64\Release\msvcp140_1.dll" />
+    <None Include="lib\x64\Release\msvcp140_2.dll" />
+    <None Include="lib\x64\Release\msvcp140_atomic_wait.dll" />
+    <None Include="lib\x64\Release\msvcp140_codecvt_ids.dll" />
+    <None Include="lib\x64\Release\vccorlib140.dll" />
+    <None Include="lib\x64\Release\vcruntime140.dll" />
+    <None Include="lib\x64\Release\vcruntime140_1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tsk\libtsk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\analyse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\recover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\src\gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\src\guiLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
