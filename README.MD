@@ -1,7 +1,5 @@
 # Data Recovery Tool
-
-This tool was developed as part of my **Realtime Research Project** at university to recover lost and deleted files from **disk images** and **external drives**.
-
+## Rise project
 It features a user-friendly **Graphical User Interface (GUI)** built using **Dear ImGui**, making data recovery accessible and efficient. The tool supports:
 
 - Automatic detection of connected physical drives
@@ -27,18 +25,7 @@ You may use your own versions of TSK and Dear ImGui, but static libraries are al
 
 ---
 
-## 📦 Third-Party Libraries
 
-This project includes the following third-party libraries:
-
-- **Dear ImGui** – MIT License – See [`gui/imgui/LICENSE.txt`](gui/imgui/LICENSE.txt)
-- **The Sleuth Kit (TSK)** – IBM Public License and others – See [`tsk/licenses/`](tsk/licenses/)
-- **JetBrains Mono** – Apache 2.0 – See [`gui/fonts/jetbrains_mono/LICENSE.txt`](gui/fonts/jetbrains_mono/LICENSE.txt)
-- **Font Awesome Free** – SIL Open Font License 1.1 (Fonts), MIT (Code) – See [`gui/fonts/font_awesome/LICENSE.txt`](gui/fonts/font_awesome/LICENSE.txt)
-
-All third-party licenses are included both in their respective `vendor/` subdirectories and once collectively under `Third_Party_Licenses/` for convenience.
-
----
 
 ## 📝 License
 
